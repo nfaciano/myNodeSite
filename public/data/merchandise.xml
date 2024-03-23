@@ -1,0 +1,9 @@
+<merchandise>
+    <item id="1">
+        <name>Example Merchandise</name>
+        <price>$29.99</price>
+        <imgUrl>images/logo.png</imgUrl>
+        <description>A detailed description of the item here. Perfect for all your needs!</description>
+    </item>
+    <!-- Add more items as needed -->
+</merchandise>

@@ -1,0 +1,25 @@
+#eventsList {
+    margin: 20px auto;
+    max-width: 700px; 
+  }
+  #eventsList div {
+    background-color: #f0f0f0; /* Light grey background  */
+    border: 1px solid #ddd; /* Add a slight border */
+    padding: 15px;
+    margin-bottom: 20px; 
+    border-radius: 5px; /* Slightly rounded corners  */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow */
+  }
+  
+  #eventsList h3 {
+    color: #423189; /* Purple */
+    margin-top: 0;
+  }
+  
+  #eventsList p {
+    margin: 10px 0;
+    color: #333; /* Dark grey  */
+  }
+  
+  
+  

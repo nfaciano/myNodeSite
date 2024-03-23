@@ -1,0 +1,86 @@
+ 
+  /* Specific styles for merchandise page */
+  .merchandise-logo {
+    width: 150px;
+    height: 150px;
+    float: right; /* Adjusts image float */
+    margin-left: 20px; /* Adds space between the text and the image */
+  }
+  
+  /* The Modal (background) */
+.details-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+.merchandise-item img {
+    position: relative; /* Allows absolute positioning within */
+    width: 100%; /* Ensures the image covers the merchandise-item area */
+    height: auto; /* Maintains aspect ratio */
+}
+
+/* The Close Button */
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Container for each merchandise item */
+.merchandise-item {
+    position: relative; /* Establishes a positioning context */
+    display: inline-block; /* Allows multiple items per line as needed */
+    margin: 20px; /* Spacing around each item */
+}
+
+/* Container for name and price overlay */
+.overlay-info {
+    position: absolute; /* Positioned relative to its nearest positioned ancestor */
+    bottom: 0; 
+    left: 0; 
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for contrast */
+    color: #ffffff; /* White text color  */
+    padding: 5px 10px; /* Padding around text */
+    border-top-right-radius: 10px; 
+}
+
+/* Styling for the merchandise name */
+.merchandise-name {
+    display: block; /* Ensure the name appears on its own line */
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+/* Styling for the price tag */
+.price-tag {
+    display: block; /* Ensure the price appears on its own line below the name */
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: bold; /* Bold text for the price */
+}
+
+.merchandise-img-hover:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}

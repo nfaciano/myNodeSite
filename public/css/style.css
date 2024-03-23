@@ -1,0 +1,95 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+nav {
+  background-color: #423189; /* Purple */
+  padding: 10px 0;
+  font-size:20px;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+nav ul li a {
+  color: #f4d03f; /* Gold */
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #28b463; /* Green */
+}
+h1 {
+  color: #423189; /* Purple */
+  text-align: center;
+  font-size: 32px;
+  margin: 20px 0;
+}
+img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+section {
+  padding: 20px;
+  text-align: center;
+}
+footer {
+  background-color: #423189; /* Purple */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  color: #f4d03f; /* Gold */
+}
+
+div {
+  text-align: center;
+}
+
+#eventsList {
+  margin: 20px auto;
+  max-width: 700px; 
+}
+#eventsList div {
+  background-color: #f0f0f0; /* Light grey background  */
+  border: 1px solid #ddd; /* Add a slight border */
+  padding: 15px;
+  margin-bottom: 20px; 
+  border-radius: 5px; /* Slightly rounded corners  */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+#eventsList h3 {
+  color: #423189; /* Purple */
+  margin-top: 0;
+}
+
+#eventsList p {
+  margin: 10px 0;
+  color: #333; /* Dark grey  */
+}
+
+
+#map {
+  height: 400px;
+  width: 40%; 
+  margin: 20px auto; /* Centers the map and adds some space above and below it */
+  border: 3px solid #423189; /* Purple border to match your theme */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a shadow for depth */
+}
