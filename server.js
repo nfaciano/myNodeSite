@@ -17,7 +17,10 @@ function serveStaticFile(res, filePath, contentType, responseCode = 200) {
         res.end('Internal Server Error');
       }
     } else {
-      res.writeHead(responseCode, { 'Content-Type': contentType });
+      res.writeHead(responseCode, {
+        'Content-Type': contentType,
+        'Access-Control-Allow-Origin': 'https://lambdachiuri-node.onrender.com'
+      });
       res.end(data, 'utf-8');
     }
   });
