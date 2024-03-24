@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // Load contact information from JSON
     $.ajax({
-        url: 'https://nfaciano.rhody.dev/web_projects372/data/contactInfo.json', // Ensure the URL is correct
+        url: 'https://github.com/nfaciano/myNodeSite/blob/main/public/data/contactInfo.json', // Ensure the URL is correct
         type: 'GET',
         dataType: 'json',
         success: function(data) {

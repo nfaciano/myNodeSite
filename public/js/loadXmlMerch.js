@@ -2,7 +2,7 @@
 function loadXmlMerchandise(callback) {
     $.ajax({
         type: "GET",
-        url: "https://nfaciano.rhody.dev/web_projects372/data/merchandise.xml", 
+        url: "https://github.com/nfaciano/myNodeSite/blob/main/public/data/merchandise.xml", 
         dataType: "xml",
         success: function(xml) {
             const items = [];
