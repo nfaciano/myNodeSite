@@ -1,8 +1,7 @@
-// loadXmlMerch.js
 function loadXmlMerchandise(callback) {
     $.ajax({
         type: "GET",
-        url: "https://github.com/nfaciano/myNodeSite/blob/main/public/data/merchandise.xml", 
+        url: "/data/merchandise.xml", // Local server URL
         dataType: "xml",
         success: function(xml) {
             const items = [];
