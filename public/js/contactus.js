@@ -30,7 +30,7 @@ $(document).ready(function() {
 });
 
 function initMap() {
-    var lambdaChiLocation = {lat: 41.480670, lng: -71.521940}; /
+    var lambdaChiLocation = {lat: 41.480670, lng: -71.521940}; 
   
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 15,
