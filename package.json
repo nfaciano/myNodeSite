@@ -1,6 +1,20 @@
 {
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "mynodesite",
+  "version": "1.0.0",
+  "description": "LambdaChiURI node website",
+  "main": "handlebarsServer.js",
+  "author": "Nicholas Faciano",
+  "license": "ISC",
+   "engines": {
+    "node": ">=v16"
   }
+
 }
